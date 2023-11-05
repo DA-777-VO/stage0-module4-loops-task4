@@ -11,7 +11,8 @@ public class SkippingThird {
             }
             System.out.println(i);
             i++;
-        } while (i <= lastPrinted);
+        } while (i < lastPrinted);
+
 
     }
 }
